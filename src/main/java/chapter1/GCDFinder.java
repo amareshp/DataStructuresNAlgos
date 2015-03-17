@@ -18,6 +18,7 @@ public class GCDFinder {
 	}	
 	
 	public static void main(String[] args) {
-		System.out.println(new GCDFinder().gcd(25, 10)); // should print 5
+		//System.out.println(new GCDFinder().gcd(25, 10)); // should print 5
+		System.out.println(new GCDFinder().gcd(10, 25)); // should print 5
 	}
 }
